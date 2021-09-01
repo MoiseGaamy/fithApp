@@ -56,11 +56,8 @@ function FunctionalComponent() {
             <label for="inputPassword4">Age</label>
             <input type="age"  className="form-control" name="email" value={age} onChange={(e)=>handleAge(e)}/>
             </div>
-            
-            </form>
-            
             <button type="submit" class="btn btn-primary">Submit</button>
-            
+            </form> 
         </div>
     )
 }

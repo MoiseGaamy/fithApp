@@ -31,7 +31,7 @@ class ClassComponent extends React.Component {
         return (
             <div className="compo">
             <h1>Class Component</h1>
-        <form className="form-row"onSubmit={(e) => this.handleSubmit(e)}>
+             <form className="form-row"onSubmit={(e) => this.handleSubmit(e)}>
             <div className="form-group col-md-6">
             <label for="inputEmail4">Email</label>
             <input type="email" className="form-control" name="email" value={this.state.email} onChange={(e)=>this.handleEmail(e)} placeholder="Email"/>
@@ -52,10 +52,10 @@ class ClassComponent extends React.Component {
             <label for="inputPassword4">Age</label>
             <input type="age"  className="form-control" name="email" value={this.state.age} onChange={(e)=>this.handleAge(e)}/>
             </div>
-            
+            <button type="submit" class="btn btn-primary">Submit</button>
             </form>
             
-            <button type="submit" class="btn btn-primary">Submit</button>
+            
             
         </div>
         );
